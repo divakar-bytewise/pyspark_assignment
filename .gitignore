@@ -5,20 +5,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Allow the src and test folders
-!src/
-!test/
 
-# Allow only Python files inside src and test
-!src/**/*.py
-!test/**/*.py
-
-# Ignore everything else inside src and test except .py files
-src/**/*
-!src/**/*.py
-
-test/**/*
-!test/**/*.py
 
 # Common Python exclusions
 __pycache__/
